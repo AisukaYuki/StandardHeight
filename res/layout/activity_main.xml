@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/raw_1457488914"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hkun.bmi.MainActivity" >
+
+    <TextView
+        android:id="@+id/tvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/tvw" />
+    
+     <TextView
+        android:id="@+id/tvs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvw"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/tvs" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvs"
+        android:layout_toRightOf="@id/tvs"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/rbm" />
+
+        <RadioButton
+            android:id="@+id/rbf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="@string/rbf" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/restv"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/btnC1"
+        android:layout_alignRight="@+id/btnC2"
+        android:layout_below="@+id/btnC1"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/cusres"
+        android:gravity="center_vertical|center"
+        android:singleLine="true"
+        android:text="@string/restv"
+        android:textColor="#9ccc65"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnC1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/tvs"
+        android:layout_below="@+id/tvs"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/cusbtn"
+        android:text="@string/btnC1"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+    
+     <Button
+         android:id="@+id/btnC2"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_alignBaseline="@+id/btnC1"
+         android:layout_alignBottom="@+id/btnC1"
+         android:layout_alignParentRight="true"
+         android:background="@drawable/cusbtn"
+         android:text="@string/btnC2"
+         android:textColor="#ffffff"
+         android:textSize="14sp" />
+
+     <TextView
+         android:id="@+id/res"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_alignLeft="@+id/restv"
+         android:layout_below="@+id/restv"
+         android:background="@drawable/cusres"
+         android:gravity="center_vertical|center"
+         android:textColor="#9ccc65"
+         android:text="@string/res"
+         android:textSize="20sp" />
+
+     <EditText
+         android:id="@+id/edtw"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/tvw"
+         android:layout_alignBottom="@+id/tvw"
+         android:layout_alignRight="@+id/radioGroup1"
+         android:layout_toRightOf="@+id/tvw"
+         android:ems="10"
+         android:gravity="right"
+         android:hint="@string/hint2"
+         android:inputType="number" />
+
+
+
+</RelativeLayout>

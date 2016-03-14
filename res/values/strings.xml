@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">标准身高计算器</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvw">我的体重:</string>
+    <string name="tvs">我的性别:</string>
+    <string name="hint2">KG</string>
+    <string name="rbm">男生</string>
+    <string name="rbf">女生</string>
+    <string name="btnC1">计算</string>
+    <string name="btnC2">清零</string>
+    <string name="restv">计算结果</string>
+    <string name="res"> 标准身高是：</string>
+
+</resources>
